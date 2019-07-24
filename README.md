@@ -45,3 +45,8 @@ QuakePlot was developed in Objective-X using Xcode 10.1. It uses the following t
 <p align="center">
     <img src="doc/storyboard.png" width="800">
 </p>
+
+## TODO
+
+* Unit tests
+* UI tests
