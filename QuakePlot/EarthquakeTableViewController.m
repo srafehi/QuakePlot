@@ -1,40 +1,44 @@
 #import <Mantle/Mantle.h>
 #import <AFNetworking.h>
-#import "EarthquakeTableTableViewController.h"
+#import "EarthquakeTableViewController.h"
 #import "EarthquakeMapViewController.h"
 #import "Model/Earthquake.h"
 #import "EarthquakeTableViewCell.h"
 #import "Service/EarthquakeService.h"
 
 
-@interface EarthquakeTableTableViewController ()
+@interface EarthquakeTableViewController ()
 
 @end
 
-@implementation EarthquakeTableTableViewController
+@implementation EarthquakeTableViewController
 {
     NSArray* earthquakes;
-    EarthquakeService* earthquakeService;
 }
 
 #pragma mark - Lifecycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // TODO: move interval to a config
-    earthquakeService = [[EarthquakeService alloc] initWithInterval: 10.0];
+    
+    // Create an instance of EarthquakeService only if one was not
+    // injected on initialization
+    if (_earthquakeService == nil) {
+        // TODO: move interval to a config
+        _earthquakeService = [[EarthquakeService alloc] initWithInterval: 10.0];
+    }
 }
 
 /// Start listening to earthquake events
 - (void)viewWillAppear:(BOOL) animated {
     [super viewWillAppear:animated];
-    [earthquakeService addListener: self];
+    [_earthquakeService addListener: self];
 }
 
 /// Stop listening to earthquake events
 - (void)viewWillDisappear:(BOOL) animated {
     [super viewDidDisappear:animated];
-    [earthquakeService removeListener: self];
+    [_earthquakeService removeListener: self];
 }
 
 #pragma mark - Callbacks

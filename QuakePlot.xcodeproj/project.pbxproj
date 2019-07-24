@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C108BE622E721A000F884B2 /* EarthquakeTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C108BE522E721A000F884B2 /* EarthquakeTableTableViewController.m */; };
+		3C108BE622E721A000F884B2 /* EarthquakeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C108BE522E721A000F884B2 /* EarthquakeTableViewController.m */; };
 		3C108BE922E7260700F884B2 /* Earthquake.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C108BE822E7260700F884B2 /* Earthquake.m */; };
 		3C108BED22E73F8000F884B2 /* EarthquakeMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C108BEC22E73F8000F884B2 /* EarthquakeMapViewController.m */; };
 		3C8543C222E71ABB00462981 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8543C122E71ABB00462981 /* AppDelegate.m */; };
@@ -40,8 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C108BE422E721A000F884B2 /* EarthquakeTableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthquakeTableTableViewController.h; sourceTree = "<group>"; };
-		3C108BE522E721A000F884B2 /* EarthquakeTableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthquakeTableTableViewController.m; sourceTree = "<group>"; };
+		3C108BE422E721A000F884B2 /* EarthquakeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthquakeTableViewController.h; sourceTree = "<group>"; };
+		3C108BE522E721A000F884B2 /* EarthquakeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthquakeTableViewController.m; sourceTree = "<group>"; };
 		3C108BE822E7260700F884B2 /* Earthquake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Earthquake.m; sourceTree = "<group>"; };
 		3C108BEA22E7261800F884B2 /* Earthquake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Earthquake.h; sourceTree = "<group>"; };
 		3C108BEB22E73F8000F884B2 /* EarthquakeMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthquakeMapViewController.h; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 		3C8543BF22E71ABB00462981 /* QuakePlot */ = {
 			isa = PBXGroup;
 			children = (
-				3C108BE422E721A000F884B2 /* EarthquakeTableTableViewController.h */,
-				3C108BE522E721A000F884B2 /* EarthquakeTableTableViewController.m */,
+				3C108BE422E721A000F884B2 /* EarthquakeTableViewController.h */,
+				3C108BE522E721A000F884B2 /* EarthquakeTableViewController.m */,
 				3C108BEB22E73F8000F884B2 /* EarthquakeMapViewController.h */,
 				3C108BEC22E73F8000F884B2 /* EarthquakeMapViewController.m */,
 				3C86191722E7CAF90060E0C1 /* EarthquakeTableViewCell.h */,
@@ -359,7 +359,7 @@
 				3C86191922E7CAF90060E0C1 /* EarthquakeTableViewCell.m in Sources */,
 				3C8543C222E71ABB00462981 /* AppDelegate.m in Sources */,
 				3C108BE922E7260700F884B2 /* Earthquake.m in Sources */,
-				3C108BE622E721A000F884B2 /* EarthquakeTableTableViewController.m in Sources */,
+				3C108BE622E721A000F884B2 /* EarthquakeTableViewController.m in Sources */,
 				3C86191B22E86A8B0060E0C1 /* EarthquakeService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
